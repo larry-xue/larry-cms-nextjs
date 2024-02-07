@@ -5,7 +5,6 @@ const App = ({ Component, pageProps }: AppProps<any>) => {
   return (
     <SessionProvider session={pageProps.session}>
       <Component {...pageProps} />
-
     </SessionProvider>
   );
 };
